@@ -1,0 +1,8 @@
+.\src\parity_bit.vhd
+.\src\encoder.vhd
+.\src\two_s_complement.vhd
+.\src\seven_segment.vhd
+.\src\TestBench\parity_bit_TB.vhd
+.\src\TestBench\encoder_TB.vhd
+.\src\TestBench\two_s_complement_TB.vhd
+.\src\TestBench\seven_segment_TB.vhd

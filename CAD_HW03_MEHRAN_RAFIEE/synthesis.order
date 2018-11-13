@@ -1,0 +1,8 @@
+i<>.\src\ALU.vhd
+i<>.\src\TestBench\alu_TB.vhd
+i<>.\src\fsm_11101.vhd
+i<>.\src\TestBench\fsm_11101_TB.vhd
+i<>.\src\fsm_odd_one.vhd
+i<>.\src\TestBench\fsm_odd_one_TB.vhd
+i<>.\src\04_inertial.vhd
+i<>.\src\TestBench\04_inertial_TB.vhd

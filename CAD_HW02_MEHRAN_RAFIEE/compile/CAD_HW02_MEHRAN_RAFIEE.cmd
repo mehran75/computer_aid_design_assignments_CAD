@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\CAD_HW02_MEHRAN_RAFIEE\library.cfg"  -j "c:\My_Designs\CAD_HW02_MEHRAN_RAFIEE\CAD_HW02_MEHRAN_RAFIEE\projlib.cfg"  -d "c:\My_Designs\CAD_HW02_MEHRAN_RAFIEE\CAD_HW02_MEHRAN_RAFIEE\compile"   -work CAD_HW02_MEHRAN_RAFIEE  -dbg -e 100 -2002 "c:\My_Designs\CAD_HW02_MEHRAN_RAFIEE\CAD_HW02_MEHRAN_RAFIEE\src\TestBench\seven_segment_TB.vhd" 

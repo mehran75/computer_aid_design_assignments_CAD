@@ -1,0 +1,10 @@
+[General]
+CurrentVersion=103
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+cad_97=1
+Built-in symbols=0
+cad_hw03=0
+[CACHEDOC|Aldec.Project.Generic.7|c:\My_Designs\cad_97\cad_97\cad_97.adf|]
+Path=
+[Gui config]
+RunFor=100 ns

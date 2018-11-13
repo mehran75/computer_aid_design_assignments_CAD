@@ -1,0 +1,99 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=CAD_HW03_MEHRAN_RAFIEE
+
+[Library]
+CAD_HW03_MEHRAN_RAFIEE=.\CAD_HW03_MEHRAN_RAFIEE.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=1
+AccessACCR=1
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+REFRESH_FLOW=1
+FAMILY=
+NoTchkMsg=0
+NoTimingChecks=0
+HESPrepare=0
+EnableXtrace=0
+SplitNetVectors=0
+StackMemorySize=32
+RetvalMemorySize=32
+VsimAdditionalOptions=
+SimulationAccessReadModules=
+SimulationAccessReadWriteModules=
+SimulationAccessReadPaths=
+SimulationAccessReadWritePaths=
+SimulationAccessNetsPaths=
+SimulationAccessNetsModules=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+CAD_HW03_MEHRAN_RAFIEE=.
+Active_lib=
+
+[IMPLEMENTATION]
+UCF=
+
+[Groups]
+TestBench=1
+
+[Files]
+/ALU.vhd=-1
+/fsm_11101.vhd=-1
+/fsm_odd_one.vhd=-1
+/04_inertial.vhd=-1
+TestBench/alu_TB.vhd=-1
+TestBench/alu_TB_runtest.do=-1
+TestBench/fsm_11101_TB.vhd=-1
+TestBench/fsm_11101_TB_runtest.do=-1
+TestBench/fsm_odd_one_TB.vhd=-1
+TestBench/fsm_odd_one_TB_runtest.do=-1
+TestBench/04_inertial_TB.vhd=-1
+TestBench/04_inertial_TB_runtest.do=-1
+
+[Files.Data]
+.\src\ALU.vhd=VHDL Source Code
+.\src\fsm_11101.vhd=VHDL Source Code
+.\src\fsm_odd_one.vhd=VHDL Source Code
+.\src\04_inertial.vhd=VHDL Source Code
+.\src\TestBench\alu_TB.vhd=VHDL Test Bench
+.\src\TestBench\alu_TB_runtest.do=Macro
+.\src\TestBench\fsm_11101_TB.vhd=VHDL Test Bench
+.\src\TestBench\fsm_11101_TB_runtest.do=Macro
+.\src\TestBench\fsm_odd_one_TB.vhd=VHDL Test Bench
+.\src\TestBench\fsm_odd_one_TB_runtest.do=Macro
+.\src\TestBench\04_inertial_TB.vhd=VHDL Test Bench
+.\src\TestBench\04_inertial_TB_runtest.do=Macro
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=\04_inertial_tb\|tb_architecture|0 alu_tb|tb_architecture|0 fsm_11101|fsm_11101|0 fsm_11101_tb|tb_architecture|0 fsm_odd_one_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=

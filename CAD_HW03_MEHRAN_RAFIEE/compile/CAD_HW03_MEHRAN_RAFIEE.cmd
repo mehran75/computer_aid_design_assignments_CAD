@@ -1,0 +1,1 @@
+-w -s "C:\My_Designs\cad_97\library.cfg"  -j "C:\My_Designs\cad_97\CAD_HW03_MEHRAN_RAFIEE\projlib.cfg"  -d "C:\My_Designs\cad_97\CAD_HW03_MEHRAN_RAFIEE\compile"   -work CAD_HW03_MEHRAN_RAFIEE  -O3 -e 100 -2002 "C:\My_Designs\cad_97\CAD_HW03_MEHRAN_RAFIEE\src\TestBench\04_inertial_TB.vhd" 

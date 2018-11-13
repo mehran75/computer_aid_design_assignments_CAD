@@ -1,0 +1,141 @@
+timestamp=1541164696932
+
+[encoder]
+A/encoder=21|./src/encoder.vhd|41|1*345770
+B/encoder=3*93901
+C=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+C/encoder=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+I=0*62619
+I/encoder=0*64076
+M=11|0|v80|1541150262299|./src/encoder.vhd|0*62211*0xd8bfefa83f8a619b23d2c2bbc68db32f03836c2a|0*62544*0xab32bc1a2daf049573e14469f634e0e6
+M/encoder=21|0|v80|1541164670821|./src/encoder.vhd|0*63707*0x6ea103ea2ff7cd0097cac34f9ea9bffa6a2b9ca5|0*63990*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/encoder.vhd|30
+
+[encoder_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/encoder_TB.vhd|14|1*351151
+B/tb_architecture=3*96570
+C=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+C/tb_architecture=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+I=0*46548
+I/tb_architecture=I/TB_ARCHITECTURE 0*68989
+M=11|0|v80|1541149691502|./src/TestBench/encoder_TB.vhd|0*46197*0xe8cd73ef08183fb4690d78becf0510003f95507a|0*46457*0xab32bc1a2daf049573e14469f634e0e6
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v80|1541164671210|./src/TestBench/encoder_TB.vhd|0*68081*0x4dd5cb3521fa70ea2c35df90d5ada6e15ac47b16|0*68879*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/TestBench/encoder_TB.vhd|8
+
+[parity_bit]
+A/parity_bit=21|./src/parity_bit.vhd|38|1*344497
+B/parity_bit=3*93375
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/parity_bit=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+I=0*516
+I/parity_bit=0*37853
+M=11|0|v80|1540909207377|./src/parity_bit.vhd|0*185*0x31ef8d3c7c7aefb103c5bb75b822aae886b30afd|0*435*0xab32bc1a2daf049573e14469f634e0e6
+M/parity_bit=21|0|v80|1541164670719|./src/parity_bit.vhd|0*37416*0x34ea6387e2378449227c747bdec498a95f830a56|0*37758*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/parity_bit.vhd|28
+
+[parity_bit_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/parity_bit_TB.vhd|10|1*348640
+B/tb_architecture=3*96101
+C=8.3.2120.sp1.14.3884  (Windows)|00000009789cd3f53756d0353230300200090601c1
+C/tb_architecture=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+I=0*1556
+I/tb_architecture=I/TB_ARCHITECTURE 0*40164
+M=11|0|v80|1540909456237|./src/TestBench/parity_bit_TB.vhd|0*1274*0x69ec7e873966a222db51fe4576eb61ad34d44f90|0*1459*0xab32bc1a2daf049573e14469f634e0e6
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v80|1541164671068|./src/TestBench/parity_bit_TB.vhd|0*39428*0x1b8be9942976eae1e2bb532836e2deceb17021f3|0*40048*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/TestBench/parity_bit_TB.vhd|6
+
+[seven_segment]
+A/seven_segment=21|./src/seven_segment.vhd|38|1*359926
+B/seven_segment=3*98899
+C=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+C/seven_segment=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+I=0*89207
+I/seven_segment=0*89314
+M=11|0|v80|1541164684437|./src/seven_segment.vhd|0*88863*0xf23d68319c593b75d77065433688a34bf2b95a69|0*89120*0xab32bc1a2daf049573e14469f634e0e6
+M/seven_segment=21|0|v80|1541164689357|./src/seven_segment.vhd|0*83477*0x0eee23362fe74ca1a2624967d4d552796536bfcd|0*84375*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/seven_segment.vhd|29
+
+[seven_segment_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/seven_segment_TB.vhd|11|1*361510
+B/tb_architecture=3*99806
+C=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+C/tb_architecture=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+I=0*85057
+I/tb_architecture=I/TB_ARCHITECTURE 0*90096
+M=11|0|v80|1541164331761|./src/TestBench/seven_segment_TB.vhd|0*84694*0x43d040c05dfda44379b9b7bb8e4de3e5cc1e6faa|0*84954*0xab32bc1a2daf049573e14469f634e0e6
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v80|1541164696778|./src/TestBench/seven_segment_TB.vhd|0*89435*0x518fc892b1ac2244c67122e215747ef9868bbd5c|0*89974*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/TestBench/seven_segment_TB.vhd|8
+
+[testbench_for_encoder]
+C=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+E=1*353803
+I=0*69685
+M=2|0|v80|1541164671224|./src/TestBench/encoder_TB.vhd|0*69297*0x224e8bd5a3a855e849f8beea43e9390781375f2a|0*69570*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/TestBench/encoder_TB.vhd|69
+
+[testbench_for_parity_bit]
+C=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+E=1*350696
+I=0*40769
+M=2|0|v80|1541164671071|./src/TestBench/parity_bit_TB.vhd|0*40345*0xfa119e87c1987b20edb90dcff82f4a298e1111b1|0*40645*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/TestBench/parity_bit_TB.vhd|58
+
+[testbench_for_seven_segment]
+C=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+E=1*363616
+I=0*86742
+M=2|0|v80|1541164696793|./src/TestBench/seven_segment_TB.vhd|0*86282*0x4f867b66d70cdef10dcc6b1592e4ebfe967939ba|0*86609*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/TestBench/seven_segment_TB.vhd|49
+
+[testbench_for_two_s_complement]
+C=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+E=1*356714
+I=0*75407
+M=2|0|v80|1541164671352|./src/TestBench/two_s_complement_TB.vhd|0*74911*0xc5f277349f9d75f49ed5286830a229a31980b0b8|0*75265*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/TestBench/two_s_complement_TB.vhd|58
+
+[two_s_complement]
+A/two_s_complement=21|./src/two_s_complement.vhd|42|1*347170
+B/two_s_complement=3*95011
+C=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+C/two_s_complement=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+I=0*76323
+I/two_s_complement=0*78786
+M=11|0|v80|1541161438995|./src/two_s_complement.vhd|0*75896*0x41856b929db6cf0e480c936c76b94a63db102a8d|0*76230*0xab32bc1a2daf049573e14469f634e0e6
+M/two_s_complement=21|0|v80|1541164670931|./src/two_s_complement.vhd|0*78240*0x797e3ea3249814d120479a41f824453882009688|0*78673*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/two_s_complement.vhd|30
+
+[two_s_complement_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/two_s_complement_TB.vhd|13|1*354356
+B/tb_architecture=3*97651
+C=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+C/tb_architecture=8.3.2120.sp1.14.3884  (Windows)|0000000a789cd34d494a57d03532303002000ebc026c
+I=0*73711
+I/tb_architecture=I/TB_ARCHITECTURE 0*77979
+M=11|0|v80|1541161376030|./src/TestBench/two_s_complement_TB.vhd|0*73336*0xb37e53ca18a7e5345981bc6b24c03cb8e6c7a44c|0*73602*0xab32bc1a2daf049573e14469f634e0e6
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v80|1541164671349|./src/TestBench/two_s_complement_TB.vhd|0*77222*0xa669be18b373577247543915fc6b2a6dfc68b6aa|0*77851*0x9883a4debb77c3d3c4860cd1e2edf83c
+R=./src/TestBench/two_s_complement_TB.vhd|7
+
+[~A]
+ModifyID=1244
+Version=73
+
+[~MFT]
+0=673|0CAD_HW02_MEHRAN_RAFIEE.mgf|90096|74908
+1=539|1CAD_HW02_MEHRAN_RAFIEE.mgf|363616|347125
+3=351|3CAD_HW02_MEHRAN_RAFIEE.mgf|99806|93969
+
+[~U]
+encoder=11|0*62000|
+encoder_tb=11|0*46082|
+parity_bit=11|0*0|
+parity_bit_tb=11|0*1189|
+seven_segment=11|0*88676|
+seven_segment_tb=11|0*84600|
+testbench_for_encoder=TESTBENCH_FOR_encoder 2||
+testbench_for_parity_bit=TESTBENCH_FOR_parity_bit 2||
+testbench_for_seven_segment=TESTBENCH_FOR_seven_segment 2||
+testbench_for_two_s_complement=TESTBENCH_FOR_two_s_complement 2||
+two_s_complement=11|0*75663|
+two_s_complement_tb=11|0*73194|
+

@@ -1,0 +1,21 @@
+1244
+~C 1 "./src/TestBench/parity_bit_TB.vhd" 58 testbench_for_parity_bit
+~E 1 "./src/TestBench/parity_bit_TB.vhd" 6 parity_bit_tb
+~A 1 "./src/TestBench/parity_bit_TB.vhd" 10 tb_architecture
+~E 1 "./src/TestBench/encoder_TB.vhd" 8 encoder_tb
+~A 1 "./src/TestBench/encoder_TB.vhd" 14 tb_architecture
+~E 1 "./src/encoder.vhd" 30 encoder
+~A 1 "./src/encoder.vhd" 41 encoder
+~E 1 "./src/parity_bit.vhd" 28 parity_bit
+~A 1 "./src/parity_bit.vhd" 38 parity_bit
+~E 1 "./src/TestBench/seven_segment_TB.vhd" 8 seven_segment_tb
+~A 1 "./src/TestBench/seven_segment_TB.vhd" 11 tb_architecture
+~E 1 "./src/seven_segment.vhd" 29 seven_segment
+~A 1 "./src/seven_segment.vhd" 38 seven_segment
+~C 1 "./src/TestBench/encoder_TB.vhd" 69 testbench_for_encoder
+~C 1 "./src/TestBench/two_s_complement_TB.vhd" 58 testbench_for_two_s_complement
+~C 1 "./src/TestBench/seven_segment_TB.vhd" 49 testbench_for_seven_segment
+~E 1 "./src/two_s_complement.vhd" 30 two_s_complement
+~A 1 "./src/two_s_complement.vhd" 42 two_s_complement
+~E 1 "./src/TestBench/two_s_complement_TB.vhd" 7 two_s_complement_tb
+~A 1 "./src/TestBench/two_s_complement_TB.vhd" 13 tb_architecture

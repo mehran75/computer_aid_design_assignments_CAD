@@ -1,0 +1,14 @@
+[Version]
+Version=8.3
+[Designs]
+cad_97=cad_97.adf
+[Settings]
+Active=cad_97
+[Expand]
+cad_97=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

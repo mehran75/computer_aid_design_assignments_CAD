@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: C:\My_Designs\cad_97\CAD_HW03_MEHRAN_RAFIEE\src\TestBench\04_inertial_TB.vhd" 
+MESSAGE "Compile Entity "\04_inertial_tb\"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "\04_inertial_tb\"" 
+MESSAGE "Compile Configuration "\TESTBENCH_FOR_\\04_inertial\"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

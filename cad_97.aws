@@ -1,0 +1,17 @@
+[Version]
+Version=8.3
+[Designs]
+cad_hw03_mehran_rafiee=.\CAD_HW03_MEHRAN_RAFIEE\CAD_HW03_MEHRAN_RAFIEE.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+cad_97=0
+cad_hw03=0
+cad_hw02_mehran_rafiee=0
+cad_hw03_mehran_rafiee=1
+[Settings]
+Active=cad_hw03_mehran_rafiee

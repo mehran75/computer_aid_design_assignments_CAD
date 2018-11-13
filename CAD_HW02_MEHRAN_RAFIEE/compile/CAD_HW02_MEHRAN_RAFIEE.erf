@@ -1,0 +1,5 @@
+MESSAGE "File: c:\My_Designs\CAD_HW02_MEHRAN_RAFIEE\CAD_HW02_MEHRAN_RAFIEE\src\TestBench\seven_segment_TB.vhd" 
+MESSAGE "Compile Entity "seven_segment_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "seven_segment_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_seven_segment"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 
