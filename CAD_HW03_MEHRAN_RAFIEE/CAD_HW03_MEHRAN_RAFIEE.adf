@@ -64,6 +64,12 @@ UCF=
 [Groups]
 TestBench=1
 
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=\04_inertial_tb\|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
 [Files]
 /ALU.vhd=-1
 /fsm_11101.vhd=-1
@@ -92,8 +98,3 @@ TestBench/04_inertial_TB_runtest.do=-1
 .\src\TestBench\04_inertial_TB.vhd=VHDL Test Bench
 .\src\TestBench\04_inertial_TB_runtest.do=Macro
 
-[HierarchyViewer]
-SortInfo=u
-HierarchyInformation=\04_inertial_tb\|tb_architecture|0 alu_tb|tb_architecture|0 fsm_11101|fsm_11101|0 fsm_11101_tb|tb_architecture|0 fsm_odd_one_tb|tb_architecture|0 
-ShowHide=ShowTopLevel
-Selected=

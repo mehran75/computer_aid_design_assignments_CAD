@@ -1,4 +1,4 @@
-503
+607
 ~E 1 "./src/fsm_odd_one.vhd" 28 fsm_odd_one
 ~A 1 "./src/fsm_odd_one.vhd" 39 fsm_odd_one
 ~E 1 "./src/ALU.vhd" 30 alu
