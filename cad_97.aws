@@ -2,6 +2,7 @@
 Version=8.3
 [Designs]
 cad_hw03_mehran_rafiee=.\CAD_HW03_MEHRAN_RAFIEE\CAD_HW03_MEHRAN_RAFIEE.adf
+cad_hw04_mehran_rafiee=.\CAD_HW04_MEHRAN_RAFIEE\CAD_HW04_MEHRAN_RAFIEE.adf
 [Browser]
 sort=order
 mode=none
@@ -12,6 +13,7 @@ macro=
 cad_97=0
 cad_hw03=0
 cad_hw02_mehran_rafiee=0
-cad_hw03_mehran_rafiee=1
+cad_hw03_mehran_rafiee=0
+cad_hw04_mehran_rafiee=1
 [Settings]
-Active=cad_hw03_mehran_rafiee
+Active=cad_hw04_mehran_rafiee

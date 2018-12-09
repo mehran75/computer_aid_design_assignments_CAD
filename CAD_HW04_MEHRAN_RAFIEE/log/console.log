@@ -1,0 +1,88 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+memory_tb memory_tb tb_architecture
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6271 kB (elbread=1023 elab2=4900 kernel=347 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\cad_97\CAD_HW04_MEHRAN_RAFIEE\src\wave.asdb
+#  10:53 PM, Sunday, December 9, 2018
+#  Simulation has been initialized
+#  Selected Top-Level: memory_tb (tb_architecture)
+# add wave -noreg {/clk}
+# add wave -noreg {/cs1}
+# add wave -noreg {/cs2}
+# add wave -noreg {/we1}
+# add wave -noreg {/we2}
+# add wave -noreg {/addr1}
+# add wave -noreg {/addr2}
+# add wave -noreg {/data1}
+# add wave -noreg {/data2}
+# 9 signal(s) traced.
+# 1 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+acom -O3 -work CAD_HW04_MEHRAN_RAFIEE -2002  $dsn/src/TestBench/memory_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\cad_97\CAD_HW04_MEHRAN_RAFIEE\src\TestBench\memory_TB.vhd
+# Compile Entity "memory_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "memory_tb"
+# Compile Configuration "TESTBENCH_FOR_memory"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6272 kB (elbread=1023 elab2=4901 kernel=347 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\cad_97\CAD_HW04_MEHRAN_RAFIEE\src\wave.asdb
+#  10:54 PM, Sunday, December 9, 2018
+#  Simulation has been initialized
+#  Selected Top-Level: memory_tb (tb_architecture)
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+acom -O3 -work CAD_HW04_MEHRAN_RAFIEE -2002  $dsn/src/TestBench/memory_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\cad_97\CAD_HW04_MEHRAN_RAFIEE\src\TestBench\memory_TB.vhd
+# Compile Entity "memory_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "memory_tb"
+# Error: COMP96_0015: memory_TB.vhd : (64, 35): ')' expected.
+# Error: COMP96_0015: memory_TB.vhd : (64, 41): ';' expected.
+# Compile Configuration "TESTBENCH_FOR_memory"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -work CAD_HW04_MEHRAN_RAFIEE -2002  $dsn/src/TestBench/memory_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available.
+# File: c:\My_Designs\cad_97\CAD_HW04_MEHRAN_RAFIEE\src\TestBench\memory_TB.vhd
+# Compile Entity "memory_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "memory_tb"
+# Error: COMP96_0015: memory_TB.vhd : (64, 35): ')' expected.
+# Error: COMP96_0015: memory_TB.vhd : (64, 41): ';' expected.
+# Compile Configuration "TESTBENCH_FOR_memory"
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work

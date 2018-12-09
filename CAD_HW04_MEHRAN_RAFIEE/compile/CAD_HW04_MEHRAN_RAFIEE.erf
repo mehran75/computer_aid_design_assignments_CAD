@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints, code coverage, and assertion debug will not be available." 
+MESSAGE "File: c:\My_Designs\cad_97\CAD_HW04_MEHRAN_RAFIEE\src\TestBench\memory_TB.vhd" 
+MESSAGE "Compile Entity "memory_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "memory_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_memory"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

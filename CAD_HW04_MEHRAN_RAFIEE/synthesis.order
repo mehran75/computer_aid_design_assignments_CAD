@@ -1,0 +1,6 @@
+i<>.\src\counter-12-bit.vhd
+i<>.\src\TestBench\counter-12-bit_TB.vhd
+i<>.\src\fsm1100.vhd
+i<>.\src\TestBench\fsm1100_TB.vhd
+i<>.\src\memory.vhd
+i<>.\src\TestBench\memory_TB.vhd
