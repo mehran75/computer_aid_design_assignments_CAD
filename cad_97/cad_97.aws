@@ -2,10 +2,12 @@
 Version=8.3
 [Designs]
 cad_97=cad_97.adf
+cad_hw04_mehran_rafiee=.\..\CAD_HW04_MEHRAN_RAFIEE\CAD_HW04_MEHRAN_RAFIEE.adf
 [Settings]
-Active=cad_97
+Active=cad_hw04_mehran_rafiee
 [Expand]
-cad_97=1
+cad_97=0
+cad_hw04_mehran_rafiee=1
 [Browser]
 sort=order
 mode=none

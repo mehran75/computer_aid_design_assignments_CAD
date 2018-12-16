@@ -19,11 +19,11 @@ architecture TB_ARCHITECTURE of memory_tb is
 		Data_Width : INTEGER := 8;
 		Addr_Width : INTEGER := 8 );
 	port(
-		clk : in STD_LOGIC;
-		cs1 : in STD_LOGIC;
-		cs2 : in STD_LOGIC;
-		we1 : in STD_LOGIC;
-		we2 : in STD_LOGIC;
+		clk   : in STD_LOGIC;
+		cs1   : in STD_LOGIC;
+		cs2   : in STD_LOGIC;
+		we1   : in STD_LOGIC;
+		we2   : in STD_LOGIC;
 		addr1 : in STD_LOGIC_VECTOR(Addr_Width-1 downto 0);
 		addr2 : in STD_LOGIC_VECTOR(Addr_Width-1 downto 0);
 		data1 : inout STD_LOGIC_VECTOR(Data_width-1 downto 0);
@@ -65,15 +65,50 @@ begin
 			data2 => data2
 		);
 
-	clk <= not clk after 1ns;
+		clk <= not clk after 1ns;
 	
-	data1 <= "00000001","00000010" after 9ns;
-	addr1 <= "00000001","00000010" after 10ns;
+		
+		process
+		begin		
+			
+			data1  <= "00100101";
+			addr1 <= "00000001";		  
+			cs1 <= '1';
+			we1 <= '1';
+			
+			wait for 10ns;
+			
+			data1  <= "00101101";
+			addr1 <= "00000010";		  
+			cs1 <= '1';
+			we1 <= '1';
+			
+			wait for 10ns;
+			
+			data1  <= (others => 'Z');
+			addr1 <= "00000001";		  
+			cs1 <= '1';
+			we1 <= '0';
+			
+			wait for 10ns;
+			
+			data1  <= (others => 'Z');
+			addr1 <= "00000010";		  
+			cs1 <= '1';
+			we1 <= '0';
+			
+			wait for 10ns;
+			
+		end process;
+		
+		
+		
+		
+		--data2 <= "00010101";
+		--addr2 <= "00000011";
 	
-	addr2 <= "00000001","00000010" after 10ns;
-	
-	cs1 <= '1';
-	we1 <= '1' , '0' after 10ns;
+		--cs2 <= '0', '1' after 20ns;
+		--we2 <= '1' ;
 
 end TB_ARCHITECTURE;
 

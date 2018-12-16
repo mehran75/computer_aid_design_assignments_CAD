@@ -24,8 +24,9 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
-use IEEE.STD_LOGIC_UNSIGNED.all; 
-use IEEE.STD_LOGIC_ARITH.all;
+use IEEE.STD_LOGIC_UNSIGNED.all;
+use IEEE.numeric_std.all;
+--use IEEE.STD_LOGIC_ARITH.all;
 
 entity memory is
 	generic (Data_Width :integer := 8;
@@ -50,8 +51,12 @@ type memory_arch is array(Addr_Width**2 -1 downto 0)
 							of std_logic_vector(Data_width -1 downto 0);
  
 signal ram : memory_arch;
+
+signal data_out1,data_out2 : std_logic_vector(Data_width -1 downto 0);
 begin
 	
+	
+	-- Write to port 2--		
 	process (clk)
 	begin
 		
@@ -59,31 +64,52 @@ begin
 			
 			
 			-- port number 1--
-			if (cs1 = '1') then
-				if (we1 = '1') then 
-					ram(conv_integer(addr1)) <= data1 ;
-				elsif (we1 = '0') then
-					data1 <= ram(conv_integer(unsigned(addr1)));	
-				else 
-					 data1 <= (others => 'Z');	  
-				end if;
+			if (cs1 = '1' and we1 = '1') then
+				ram(to_integer(unsigned(addr1))) <= data1 ;			
+				
 			end if;
 			
 			-- port number 2--
-			if (cs2 = '1') then
-				if (we2 = '1') then 
-					ram(conv_integer(addr2)) <= data2 ;
-				elsif (we2 = '0') then
-					data2 <= ram(conv_integer(unsigned(addr2)));	
-				else 
-					 data2 <= (others=> 'Z');
-				end if;
+			if (cs2 = '1' and we2 = '1') then
+					ram(to_integer(unsigned(addr2))) <= data2 ;
 			end if;
 				
 		end if;	
+	end process; 
+	
+	
+	-- Read from port 1--
+	process(addr1,cs1,we1)
+	begin
+		
+		if (cs1 = '1' and we1 = '0') then
+			data_out1 <= ram(to_integer(unsigned(addr1)));	  
+		else
+			data_out1 <= (others => '0');
+		end if;
+		
 	end process;
 	
 	
+	-- Read from port 2--
+	process(addr2,cs2,we2)
+	begin
+		
+		
+		if (cs2 = '1' and we2 = '0') then
+			data_out2 <= ram(to_integer(unsigned(addr2)));
+		else
+			data_out2 <= (others => '0');
+		end if;
+		
+	end process;
 	
+	
+	data1 <= data_out1 when (cs1 = '1' and we1 = '0')	   
+			else (others=>'Z');
+	
+	data2 <= data_out2 when (cs2 = '1' and we2 = '0')	   
+			else (others=>'Z');
+				
 
 end memory;

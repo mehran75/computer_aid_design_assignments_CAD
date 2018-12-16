@@ -70,6 +70,23 @@ HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
 
+[Folders]
+Name3=Makefiles
+Directory3=c:\My_Designs\cad_97\CAD_HW03_MEHRAN_RAFIEE\
+Extension3=mak
+Name4=Memory
+Directory4=c:\My_Designs\cad_97\CAD_HW03_MEHRAN_RAFIEE\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=c:\My_Designs\cad_97\CAD_HW03_MEHRAN_RAFIEE\
+Extension5=dll
+Name6=PDF
+Directory6=c:\My_Designs\cad_97\CAD_HW03_MEHRAN_RAFIEE\
+Extension6=pdf
+Name7=HTML
+Directory7=c:\My_Designs\cad_97\CAD_HW03_MEHRAN_RAFIEE\
+Extension7=
+
 [Files]
 /ALU.vhd=-1
 /fsm_11101.vhd=-1
@@ -97,19 +114,3 @@ TestBench/04_inertial_TB_runtest.do=-1
 .\src\TestBench\fsm_odd_one_TB_runtest.do=Macro
 .\src\TestBench\04_inertial_TB.vhd=VHDL Test Bench
 .\src\TestBench\04_inertial_TB_runtest.do=Macro
-[Folders]
-Name3=Makefiles
-Directory3=c:\My_Designs\cad_97\CAD_HW03_MEHRAN_RAFIEE\
-Extension3=mak
-Name4=Memory
-Directory4=c:\My_Designs\cad_97\CAD_HW03_MEHRAN_RAFIEE\src
-Extension4=mem;mif;hex
-Name5=Dll Libraries
-Directory5=c:\My_Designs\cad_97\CAD_HW03_MEHRAN_RAFIEE\
-Extension5=dll
-Name6=PDF
-Directory6=c:\My_Designs\cad_97\CAD_HW03_MEHRAN_RAFIEE\
-Extension6=pdf
-Name7=HTML
-Directory7=c:\My_Designs\cad_97\CAD_HW03_MEHRAN_RAFIEE\
-Extension7=

@@ -1,4 +1,4 @@
-Active-HDL 8.3.2120.sp1.14.3884  2018-12-09 22:54:14
+Active-HDL 8.3.2120.sp1.14.3884  2018-12-12 23:39:48
 
 Elaboration top modules:
 Architecture                  tb_architecture(memory_tb)
@@ -18,6 +18,7 @@ standard                    | std                    |      |                   
 TEXTIO                      | std                    |      | 8.3.2120.sp1.14.3884  (Windows) | -2008
 std_logic_1164              | ieee                   |      | 8.3.2120.sp1.14.3884  (Windows) | -2008
 std_logic_arith             | ieee                   |      | 8.3.2120.sp1.14.3884  (Windows) | -2002
+NUMERIC_STD                 | ieee                   |      | 8.3.2120.sp1.14.3884  (Windows) | -2008
 STD_LOGIC_UNSIGNED          | ieee                   |      | 8.3.2120.sp1.14.3884  (Windows) | -2002
 --------------------------------------------------------------------------------------------------------------------
 

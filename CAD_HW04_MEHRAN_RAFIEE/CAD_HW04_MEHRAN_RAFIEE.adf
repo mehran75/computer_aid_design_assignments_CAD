@@ -50,6 +50,12 @@ UCF=
 [Groups]
 TestBench=1
 
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=memory_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
 [Files]
 /counter-12-bit.vhd=-1
 /fsm1100.vhd=-1
@@ -71,3 +77,4 @@ TestBench/memory_TB_runtest.do=-1
 .\src\TestBench\fsm1100_TB_runtest.do=Macro
 .\src\TestBench\memory_TB.vhd=VHDL Test Bench
 .\src\TestBench\memory_TB_runtest.do=Macro
+

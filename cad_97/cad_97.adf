@@ -46,19 +46,19 @@ Active_lib=
 
 [Folders]
 Name3=Makefiles
-Directory3=c:\My_Designs\cad_97\cad_97\
+Directory3=C:\My_Designs\cad_97\cad_97\
 Extension3=mak
 Name4=Memory
-Directory4=c:\My_Designs\cad_97\cad_97\src
+Directory4=C:\My_Designs\cad_97\cad_97\src
 Extension4=mem;mif;hex
 Name5=Dll Libraries
-Directory5=c:\My_Designs\cad_97\cad_97\
+Directory5=C:\My_Designs\cad_97\cad_97\
 Extension5=dll
 Name6=PDF
-Directory6=c:\My_Designs\cad_97\cad_97\
+Directory6=C:\My_Designs\cad_97\cad_97\
 Extension6=pdf
 Name7=HTML
-Directory7=c:\My_Designs\cad_97\cad_97\
+Directory7=C:\My_Designs\cad_97\cad_97\
 Extension7=
 
 [IMPLEMENTATION]
